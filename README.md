@@ -5,7 +5,6 @@
 
 ## Proposed Solution:
     - Search destinations based on preferred seasons, sightseeing, itinerary templates, and public reviews.
-    - Preplan your mode of transport by reading up about the locality (scooty, cabs, buses, auto)
     - Calendar sync-up for business trip travelers
     - Geo-tagging features of all the travelers for safety purposes
     - Guided trips to risky places with a trained guide (subscription-based)
