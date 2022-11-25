@@ -1,10 +1,12 @@
-import 'dart:ui';
+import 'package:aastha/pages/content_model.dart';
+import 'package:aastha/pages/home.dart';
+import 'package:aastha/pages/home2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:onboarding/content_model.dart';
-import 'package:onboarding/home.dart';
 
 class Onbording extends StatefulWidget {
+  const Onbording({super.key});
+
   @override
   _OnbordingState createState() => _OnbordingState();
 }
@@ -92,7 +94,7 @@ class _OnbordingState extends State<Onbording> {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => Home(),
+                      builder: (_) => HomePage(),
                     ),
                   );
                 }

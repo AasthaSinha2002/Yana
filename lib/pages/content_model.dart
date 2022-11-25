@@ -9,22 +9,22 @@ class UnbordingContent {
 
 List<UnbordingContent> contents = [
   UnbordingContent(
-      title: 'Quality Food',
-      image: 'images/one.svg',
+      title: 'title1',
+      image: 'assets/one.svg',
       discription:
           "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
           "industry's standard dummy text ever since the 1500s, "
           "when an unknown printer took a galley of type and scrambled it "),
   UnbordingContent(
-      title: 'Fast Delevery',
-      image: 'images/two.svg',
+      title: 'title2',
+      image: 'assets/two.svg',
       discription:
           "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
           "industry's standard dummy text ever since the 1500s, "
           "when an unknown printer took a galley of type and scrambled it "),
   UnbordingContent(
-      title: 'Reward surprises',
-      image: 'images/three.svg',
+      title: 'title3',
+      image: 'assets/three.svg',
       discription:
           "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the "
           "industry's standard dummy text ever since the 1500s, "

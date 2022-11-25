@@ -1,5 +1,7 @@
 import 'package:aastha/pages/explore.dart';
 import 'package:aastha/pages/home.dart';
+import 'package:aastha/pages/home2.dart';
+import 'package:aastha/pages/onbording.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExplorePage(),
+      home: const Onbording(),
     );
   }
 }

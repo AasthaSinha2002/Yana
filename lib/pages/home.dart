@@ -1,3 +1,4 @@
+import 'package:aastha/pages/explore.dart';
 import 'package:aastha/widgets/card.dart';
 import 'package:aastha/widgets/navigator.dart';
 import 'package:aastha/widgets/tags.dart';
@@ -103,6 +104,14 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.search),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const ExplorePage()),
+            );
+          }),
       bottomNavigationBar: const CustomNav(),
     );
   }
