@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "3c077c1634d3b2fe0ad13812028b4dfc005210b83090ad1b4bd10d4b3adc948d"
+build_start_time: [1669347557, 203187942]
+build_end_time: [1669347578, 58938980]
+inputs:
+  "/Users/aasthasinha/Documents/GitHub/Yana/macos/Flutter/GeneratedPluginRegistrant.swift": [1669347505, 939284563]
+  "/Users/aasthasinha/Documents/GitHub/Yana/macos/Runner/AppDelegate.swift": [1668713262, 0]
+  "/Users/aasthasinha/Documents/GitHub/Yana/macos/Runner/MainFlutterWindow.swift": [1668713262, 0]

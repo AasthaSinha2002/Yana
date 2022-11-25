@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Padding(
-          padding: const EdgeInsets.only(top:30),
+          padding: const EdgeInsets.only(top: 30),
           child: Image.asset(
             'assets/logo.png',
             fit: BoxFit.cover,
@@ -50,45 +50,56 @@ class HomePage extends StatelessWidget {
       // body: Center(
       //   child: _widgetOptions.elementAt(_selectedIndex),
       // ),
-      body: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Center(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
-                  Tags(title: 'Beach'),
-                  Tags(title: 'Monuments'),
-                  Tags(title: 'Mountains')
-                ],
-              ),
-              const Align(
-                alignment: Alignment.topLeft,
-                child: Padding(
-                  padding: EdgeInsets.only(top: 14, left: 14, right: 14),
-                  child: Text(
-                    'Top Picks For You',
-                    style: TextStyle(fontSize: 25),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Center(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: const [
+                      Tags(title: 'Beach'),
+                      Tags(title: 'Monuments'),
+                      Tags(title: 'Mountains'),
+                      Tags(title: 'Mountains'),
+                      Tags(title: 'Mountains')
+                    ],
                   ),
                 ),
-              ),
-              const CustomCard(
-                city: 'Delhi',
-                img: AssetImage('assets/delhi.jpg'),
-              ),
-              const CustomCard(
-                city: 'Assam',
-                img: AssetImage('assets/assam.jpg'),
-              ),
-              const CustomCard(
-                city: 'Karnataka',
-                img: AssetImage('assets/karnataka.jpg'),
-              ),
-            ],
+                const Align(
+                  alignment: Alignment.topLeft,
+                  child: Padding(
+                    padding: EdgeInsets.only(top: 14, left: 14, right: 14),
+                    child: Text(
+                      'Top Picks For You',
+                      style: TextStyle(fontSize: 25),
+                    ),
+                  ),
+                ),
+                const CustomCard(
+                  city: 'Delhi',
+                  img: AssetImage('assets/delhi.png'),
+                ),
+                const CustomCard(
+                  city: 'Assam',
+                  img: AssetImage('assets/assam.png'),
+                ),
+                const CustomCard(
+                  city: 'Karnataka',
+                  img: AssetImage('assets/karnataka.png'),
+                ),
+                const CustomCard(
+                  city: 'Bangalore',
+                  img: AssetImage('assets/delhi.png'),
+                ),
+              ],
+            ),
           ),
         ),
       ),

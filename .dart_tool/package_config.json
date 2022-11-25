@@ -32,6 +32,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "csc_picker",
+      "rootUri": "file:///Users/aasthasinha/.pub-cache/hosted/pub.dev/csc_picker-0.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/aasthasinha/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.5",
       "packageUri": "lib/",
@@ -152,7 +158,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2022-11-24T18:06:36.130590Z",
+  "generated": "2022-11-25T03:41:34.298097Z",
   "generator": "pub",
   "generatorVersion": "2.19.0-374.1.beta"
 }

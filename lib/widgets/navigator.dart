@@ -1,3 +1,4 @@
+import 'package:aastha/pages/explore.dart';
 import 'package:aastha/pages/home.dart';
 import 'package:flutter/material.dart';
 
@@ -15,9 +16,7 @@ class _CustomNavState extends State<CustomNav> {
     Text(
       'Index 1: Saved',
     ),
-    Text(
-      'Index 2: Explore',
-    ),
+    ExplorePage(),
     Text(
       'Index 3: Forum',
     ),

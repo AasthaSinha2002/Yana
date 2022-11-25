@@ -8,11 +8,14 @@ class Tags extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    return OutlinedButton(
-        onPressed: () {},
-        child: Text(
-          title,
-          style: const TextStyle(fontSize: 15, color: Colors.black),
-        ));
+    return Padding(
+      padding: const EdgeInsets.only(left: 8),
+      child: OutlinedButton(
+          onPressed: () {},
+          child: Text(
+            title,
+            style: const TextStyle(fontSize: 15, color: Colors.black),
+          )),
+    );
   }
 }
