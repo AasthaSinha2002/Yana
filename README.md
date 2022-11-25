@@ -15,5 +15,4 @@
     Framework - Flutter
     Language - Dart
     Database - Firebase
-    API - HERE Tour Planning API, Public Transit API,  Routing API 
-    HERE Geocoding and Search, Here route matching
+    API - Flutter Explore Edition SDK
